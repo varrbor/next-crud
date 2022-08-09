@@ -8,7 +8,7 @@ const connection = {};
 	}
 
 	try {
-		const db = await mongoose.connect(process.env.MONGO_URI, {
+		const db = await mongoose.connect('mongodb+srv://varrbor:Qwerty1!@devconnector.mufnt.mongodb.net/?retryWrites=true&w=majority', {
 			useNewUrlParser: true,
 			useUnifiedTopology: true,
 			useCreateIndex: true,
